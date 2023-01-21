@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Register from "./components/Users/Register/Register";
 import Login from "./components/Users/Login/Login";
@@ -22,7 +22,7 @@ import UsersList from "./components/Users/UserList/UsersList";
 import UpdatePassword from "./components/Users/PasswordMangment/UpdatePassword";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
 
       <Routes>
@@ -139,7 +139,7 @@ function App() {
         <Route exact path="/posts/:id" element={<PostDetails />} />
         <Route exact path="/login" element={<Login />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
