@@ -5,11 +5,11 @@ const HomePage = () => {
     <>
       <section
         className="pb-10 bg-gray-800 "
-        style={{ height: "calc(100vh - 64px)" }}
+        style={{ height: "calc(100vh - 64px)", overflow: "hidden" }}
       >
         <div
           className="relative container px-4 w-auto h-auto  mx-auto"
-          style={{ top: "25%" }}
+          style={{ top: "25%", overflow: "hidden" }}
         >
           <div className="flex  items-center ">
             <div className="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">
@@ -25,7 +25,7 @@ const HomePage = () => {
               </p>
             </div>
             <div className="w-full lg:w-1/2 px-4">
-              <img className="w-full" src={poster} alt={poster} />
+              <img className="w-full " src={poster} alt={poster} />
             </div>
           </div>
         </div>
