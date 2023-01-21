@@ -26,7 +26,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route exact path="/blog-app-static" element={<HomePage />} />
+        <Route exact path="/" element={<HomePage />} />
         <Route
           path="/add-category"
           element={
