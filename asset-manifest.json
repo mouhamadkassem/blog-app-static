@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mouhamadkassem.github.io/social-media-v1-static/static/css/main.51d7aae2.css",
+    "main.js": "/mouhamadkassem.github.io/social-media-v1-static/static/js/main.17ccdc1b.js",
+    "static/media/blog1.png": "/mouhamadkassem.github.io/social-media-v1-static/static/media/blog1.5227697f78dfdb23c0bc.png",
+    "index.html": "/mouhamadkassem.github.io/social-media-v1-static/index.html",
+    "main.51d7aae2.css.map": "/mouhamadkassem.github.io/social-media-v1-static/static/css/main.51d7aae2.css.map",
+    "main.17ccdc1b.js.map": "/mouhamadkassem.github.io/social-media-v1-static/static/js/main.17ccdc1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51d7aae2.css",
+    "static/js/main.17ccdc1b.js"
+  ]
+}
